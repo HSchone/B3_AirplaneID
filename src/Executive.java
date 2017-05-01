@@ -9,6 +9,8 @@ public class Executive {
 		AirplaneID idAirplane = new AirplaneID();
 		idAirplane.createAirplaneData();
 		idAirplane.determiner();
+		
+		System.out.println("myPlanes instantiated correctly");
 
 	}
 
