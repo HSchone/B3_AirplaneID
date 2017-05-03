@@ -1,8 +1,12 @@
 
 public class AirplaneID {
-
+	int spotEng = 3;
+	String spotLoc = "body";
+	String spotType = "jet";
+	int idEng;
+	String idLoc;
+	String idType;
 	public  void createAirplaneData() {
-		
 		// do this in AirplaneID class
 		AirplaneData F15 = new AirplaneData();
 			F15.setNumberEngines(2);
@@ -39,14 +43,41 @@ public class AirplaneID {
 	
 	
 	private void engineNumb() {
+		if (spotEng == 1) {
+			
+		} else if (spotEng == 2) {
+			
+		} else if (spotEng == 3) {
+			
+		} else if (spotEng == 4) {
+			
+		} else {
+			
+		}
 		
 	}
 	
 	private void engineLoc() {
+		if (spotLoc.equals("body")) {
+			
+		} else if (spotLoc.equals("wings")) {
+			
+		} else if (spotLoc.equals("rear")) {
+						
+		} else {
+			
+		}
 		
 	}
 	
 	private void engineType() {
+		if (spotType.equals("jet")) {
+			
+		} else if (spotType.equals("propeller")) {
+			
+		} else {
+			
+		}
 		
 	}
 	

@@ -10,8 +10,8 @@ public class Executive {
 		idAirplane.createAirplaneData();
 		idAirplane.determiner();
 		
-		System.out.println("myPlanes instantiated correctly");
-		System.out.println("idAirplane instantiated correctly as well");
+		//System.out.println("myPlanes instantiated correctly");
+		//System.out.println("idAirplane instantiated correctly as well");
 
 	}
 
