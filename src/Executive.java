@@ -7,6 +7,7 @@ public class Executive {
 		//myPlanes.createAirplaneData();
 		
 		AirplaneID idAirplane = new AirplaneID();
+		idAirplane.setVisible(true);
 		idAirplane.createAirplaneData();
 		idAirplane.determiner();
 		
